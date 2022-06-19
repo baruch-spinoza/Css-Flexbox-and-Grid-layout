@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.box{
+    width: 269px;
+    padding: 15px;
+    min-height: 430px;
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content{
+    padding: 10px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family:"BIG SHOULDERS DISPLAY";
+    font-weight: 700; 
+    margin: 20px 0; 
+}
+.btn{
+    margin: 60px 0;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Lexend Deca";    
+}
+.btn1{
+    color:hsl(31, 77%, 52%)
+}
+.btn2{
+    color:hsl(179, 100%, 13%)
+}
+.btn3{
+    color:hsl(184, 100%, 22%)
+}
+.btn:hover{
+    background-color: transparent;    
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.4s;
+}
+</style>
+<body>
+    <header><a href="../gridzuri/g5.html">Click Here</a></header>
+    <div class="box-container">
+        <div class="box box1">
+            <div class=" content">
+                <img src="../flexbpty/icon-sedans.svg">
+                <h1>Sedans</h1>
+                <p>Choose Sedan for its affordability and excellent fuel economy.
+                   ideal for cruising in the city or on your next road trip.</p>
+                <button class="btn btn1">Learn more</button>
+            </div>
+        </div>
+        <div class="box box2">
+            <div class=" content">
+                <img src="../flexbpty/icon-suvs.svg">
+                <h1>Suvs</h1>
+                <p>Take an suv for its spacious interior, power and versatility.
+                   perfect for your next family trip and off-road adventures.</p>
+                <button class="btn btn2">Learn more</button>
+            </div>
+        </div>
+        <div class="box box3">
+            <div class=" content">
+                <img src="../flexbpty/icon-luxury.svg">
+                <h1>Luxury</h1>
+                <p>Cruise in the best car brand without the bloated prices
+                   enjoy the ebnhanced comfort of a luxury rental and arrive
+                   in style.</p>
+                <button class="btn btn3">Learn more</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
